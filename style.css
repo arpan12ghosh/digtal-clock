@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Fuzzy+Bubbles:wght@700&family=Lobster&family=Luxurious+Script&family=MonteCarlo&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background: #9b7d59;
+}
+nav{
+    display: flex;
+    align-items: center;
+    height: 10vh;
+}
+
+.name{
+    font-family: 'Lobster', cursive;
+    font-size: 70px;
+    align-items: center;
+    padding-left: 1.5vw;
+    color: rgb(29, 46, 46);
+   
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    padding-left: 8vw;
+    padding-right: 8vw;
+}
+
+.logo img{
+    width: 80px;
+    align-items: center;
+}
+
+.media img{
+    width: 35px;
+    padding: 2vw;
+}
+
+.format{
+    font-size: 20px;
+    align-items: center;
+    position: absolute;
+    right: 5vw;
+    cursor: pointer;
+}
+
+.background img{
+    height: 85vh;
+    width: 100vw;
+}
+
+.background{
+    position: relative;
+    text-align: center;
+    height: 85vh;
+}
+
+.clock{
+    position: absolute;
+    top: 5vh;
+    left: 5vw;
+    padding-right: 10vw;
+    color: #003c2c;
+}
+
+.time{
+    display: flex;
+    font-family: 'Fuzzy Bubbles', cursive;
+}
+
+.date{
+    font-family: 'Courgette', cursive;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    padding: 5px 5px 5px 5px;
+}
+
+.week{
+    font-family: 'Luxurious Script', cursive;
+    font-size: 180px;
+    padding-bottom: 2vh;
+}
+
+.hr{
+    width: 15vw;
+    font-size: 180px;
+}
+
+.ratio{
+    font-size: 180px;
+}
+
+.min{
+    width: 15vw;
+    font-size: 180px;
+}
+
+.sec{
+    width: 4.5vw;
+    font-size: 65px;
+    padding: 25px 15px 0px 21px;
+}
+
+.ampm{
+    font-size: 30px;
+    padding-top: 25px;
+    visibility: visible;
+}
+
+.day{
+    padding-right: 15px;
+}
+
+.month{
+    padding-right: 15px;
+}
+
+.year{
+    padding-right: 15px;
+}
+
+.quotes{
+    position: absolute;
+    left: 55vw;
+    right: 5vw;
+    bottom:7vh;
+}
+
+.quoteHead{
+    color: #2fa98d;
+    font-size: 70px;
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.box{
+    font-size: 100px;
+    color: #469976;
+}
+
+.quote{
+    padding-top: 70px;
+    font-family: 'MonteCarlo', cursive;
+    font-size: 40px;
+    color: #91e1d6;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.author{
+   
+    color: #c1c5c4;
+    padding-top: 15px;
+    padding-left: 150px;
+    padding-bottom: 30px;
+}
+
+.refresh img{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+footer{
+    background: #000;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vh;
+}

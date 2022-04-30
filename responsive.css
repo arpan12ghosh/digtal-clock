@@ -1,0 +1,186 @@
+@media screen and (max-width:1500px){
+    .logo img{
+        width: 60px;
+        align-items: center;
+    }
+
+    .name{
+        font-family: 'Lobster', cursive;
+        font-size: 50px;
+        align-items: center;
+        padding-left: 1.5vw;
+        color: rgb(29, 46, 46);
+       
+    }
+
+    .clock{
+        position: absolute;
+        top: 5vh;
+        left: 2vw;
+        padding-right: 10vw;
+        color: #003c2c;
+    }
+
+    .hr{
+        width: 15vw;
+        font-size: 100px;
+    }
+    
+    .ratio{
+        font-size: 100px;
+    }
+    
+    .min{
+        width: 15vw;
+        font-size: 100px;
+    }  
+
+    .sec{
+        width: 4.5vw;
+        font-size: 45px;
+        padding: 25px 15px 0px 21px;
+    }
+
+    .quotes{
+        position: absolute;
+        left: 55vw;
+        right: 5vw;
+        top: 2vh;
+    }
+
+    .quoteHead{
+        color: #2fa98d;
+        font-size: 40px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .box{
+        font-size: 60px;
+        color: #469976;
+    }
+    
+}
+
+@media screen and (max-width:750px){
+   
+    .name{
+        font-family: 'Lobster', cursive;
+        font-size: 20px;
+        align-items: center;
+        padding-left: 1.5vw;
+        color: rgb(29, 46, 46);
+       
+    }
+
+    .format{
+        font-size: 15px;
+        align-items: center;
+        position: absolute;
+        right: 5vw;
+    }
+
+    ul{
+        display: flex;
+        list-style-type: none;
+        align-items: center;
+        padding-left: 4vw;
+        padding-right: 8vw;
+    }
+
+    .media img{
+        width: 20px;
+        padding: 2vw;
+    }
+
+    .clock{
+        position: absolute;
+        top: 0vh;
+        left: 3vh;
+        color: #003c2c;
+    }
+
+    .date{
+        font-family: 'Courgette', cursive;
+        font-size: 30px;
+        display: flex;
+        justify-content: center;
+        padding: 5px 5px 5px 5px;
+    }
+    
+    .week{
+        font-family: 'Luxurious Script', cursive;
+        font-size: 100px;
+        padding-bottom: 2vh;
+    }
+    
+    .hr{
+        width: 25vw;
+        font-size: 60px;
+    }
+    
+    .ratio{
+        font-size: 60px;
+    }
+    
+    .min{
+        width: 25vw;
+        font-size: 60px;
+    }
+    
+    .sec{
+        width: 20vw;
+        font-size: 40px;
+        padding: 0 0 0 0;
+    }
+    
+    .ampm{
+        font-size: 30px;
+        padding-top: 0;
+        visibility: visible;
+    }
+    
+    .quotes{
+        position: absolute;
+        left: 5vw;
+        top: 45vh;
+        
+    }
+    
+    .quoteHead{
+        color: #2fa98d;
+        font-size: 30px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .box{
+        font-size: 35px;
+        color: #469976;
+    }
+    
+    .quote{
+        padding-top: 30px;
+        font-family: 'MonteCarlo', cursive;
+        font-size: 25px;
+        color: #91e1d6;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    
+    .author{
+       
+        color: #c1c5c4;
+        padding-top: 10px;
+        padding-left: 150px;
+        padding-bottom: 15px;
+        font-size: 10px;
+    }
+
+    .refresh{
+        position: absolute;
+        bottom: -3vh;
+        left: 6vw;
+    }
+    
+}
